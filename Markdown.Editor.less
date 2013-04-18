@@ -1,3 +1,7 @@
+// @MarkdownEditorIcons: Markdown.Editor.Icons.png;
+// sprockets asset helper:
+@MarkdownEditorIcons: image-url('pagedown-bootstrap/Markdown.Editor.Icons.png');
+
 .wmd-panel {
 	width: 100%;
 }
@@ -33,7 +37,7 @@
 .icon-header,
 .icon-hr-line,
 .icon-undo {
-	background-image: url(/assets/pagedown-bootstrap/Markdown.Editor.Icons.png);
+	background-image: @MarkdownEditorIcons;
 }
 .icon-link              { background-position: 0      0; }
 .icon-blockquote        { background-position: -24px  0; }
